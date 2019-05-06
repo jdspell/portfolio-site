@@ -85,7 +85,7 @@ header #particles-js .info h2 {
   margin-bottom: 100px;
   color: #ECD5A7;
 }
-header #particles-js .info #exploreBtn {
+header #particles-js .info button {
   background-color: #080808;
   color: #fff;
   border: 1px solid #fff;
@@ -95,6 +95,12 @@ header #particles-js .info #exploreBtn {
   text-decoration: none;
   text-align: center;
   font-size: 2.8rem;
+  cursor: pointer;
+}
+header #particles-js .info button:hover {
+  background-color: #ECD5A7;
+  color: #080808;
+  border: 1px solid #ECD5A7;
 }
 .About {
   height: 1080px;

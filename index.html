@@ -8,6 +8,9 @@
   <link href="https://fonts.googleapis.com/css?family=Russo+One|Ubuntu" rel="stylesheet">
   <link href="CSS/index.css" rel="stylesheet">
 
+  <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+  <script src="./JS/btnScroll.js"></script>
+
   <!-- CDN and script to load particlesJS animation-->
   <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
   <script src="JS/particles.js"></script>
@@ -25,13 +28,13 @@
                 <div class="info">
                     <h1>Jordan Spell</h1>
                     <h2>Full Stack Software Engineer</h2>
-                    <a id="exploreBtn" href="#">Explore</a>
+                    <button id="exploreBtn" class="exploreBtn" >Explore</button>
                 </div>
                 
             </div>
         </header>        
 
-        <section class="About">
+        <section class="About" id="about-section">
             <h2>About</h2>
             <div class='profile'>
                 <img class="archer-lake" src="./images/archer-lake.jpg" />
