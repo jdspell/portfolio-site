@@ -44,10 +44,34 @@ function smoothScroll(eID) {
 }
 
 document.addEventListener('DOMContentLoaded', () => {
+
+  //adds smooth scroll to navbar btns
+  const aboutBtn = document.getElementById('about');
+  aboutBtn.addEventListener('click', () => {
+    currentYPosition();
+    elmYPosition('about-section');
+    smoothScroll('about-section');
+  });
+  const projectsBtn = document.getElementById('projects');
+  projectsBtn.addEventListener('click', () => {
+    currentYPosition();
+    elmYPosition('projects-section');
+    smoothScroll('projects-section');
+  });
+  const contactBtn = document.getElementById('contact');
+  contactBtn.addEventListener('click', () => {
+    currentYPosition();
+    elmYPosition('contact-section');
+    smoothScroll('contact-section');
+  });
+
+  //adds smooth scroll to explore btn
   const exploreBtn = document.getElementById('exploreBtn');
   exploreBtn.addEventListener('click', () => {
     currentYPosition();
     elmYPosition('about-section');
     smoothScroll('about-section');
   });
+
+
 });
