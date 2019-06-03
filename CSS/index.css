@@ -188,6 +188,9 @@ header #particles-js .info button:hover {
 .Projects .portfolio .project img {
   width: 100%;
 }
+.Projects .portfolio .project:hover {
+  background-color: #fff;
+}
 .contact-form {
   display: flex;
   flex-flow: column nowrap;
